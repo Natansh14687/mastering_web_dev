@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Enter Your Details in this Forum</h1><br>
+    <div><form action="/server" target="_blank">
+        <label for="Username">Username: </label><input name="user" type="text" placeholder="Enter your name" id="Username"><br><br>
+        <label for="password">Password: </label><input name="pass" type="password" placeholder="Enter password" id="password"><br><br>
+        <label for="number">Number: </label><input name="num" type="number" placeholder="Enter any number" id="number"><br><br>
+        <label for="color">color: </label><input name="color" type="color" placeholder="choose a color" id="color"><br><br>
+       <label for="date">Date: </label><input name="date" type="date" placeholder="Enter date" id="date"><br><br>
+        <label for="image">Image: </label><input name="img" type="image" id="image"><br><br>
+        <label for="file">Choose file: </label><input name="chf" type="file" id="file"><br><br>
+        <label for="email">Email: </label><input name="email" type="email" placeholder="Enter your email id" id="email" ><br><br>
+        <br>
+        <input type="checkbox" id="check" name="age" checked><label for="check">I'm 18+</label><br><br>
+        <h4>Which fruit do you like the most</h4>
+        <input type="radio" name="apple" id="apple"><label for="apple">Apple</label><br>
+        <input type="radio" name="apple" id="orange"><label for="orange">orange</label><br>
+        <input type="radio" name="apple" id="grapes"><label for="grapes">Grapes</label><br>
+        <input type="radio" name="apple" id="mango"><label for="mango">Mango</label><br><br>
+        <h4>Subjects you like the most</h4>
+        <input type="checkbox" name="maths" id="maths"><label for="maths">Maths</label><br>
+        <input type="checkbox" name="physics" id="physics"><label for="physics">Physics</label><br>
+        <input type="checkbox" name="Chemistry" id="chem"><label for="chem">Chemistry</label><br>
+        <input type="checkbox" name="Biology" id="bio"><label for="bio">Biology</label><br>
+        <input type="checkbox" name="English" id="eng"><label for="eng">English</label><br>
+        <h4>Select your Profession</h4>
+        <select name="profession" id="profession">
+            <option>Select your option</option>
+            <option value="stu">Student</option>
+            <option value="dev">Developer</option>
+        </select><br><br>
+        <label for="vol">Volume: </label><input type="range" min="0" max="100" name="vol" step="10" value="20" id="vol"><br><br>
+        <label for="feedback">Please provide your valuable feedback</label><br><textarea id="feedback" name="feedback" placeholder="please provide your feedback" ></textarea><br><br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button><br><br>
+    </form></div><br>
+    <div>
+        <form action="https://www.youtube.com/">
+            <label for="search">Search: </label><input type="search" placeholder="search here on youtube" id="search" name="search_query">
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
