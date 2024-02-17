@@ -1,0 +1,29 @@
+#name{
+    color: #5da87d;
+    background-color: #07332d;
+    text-align: center;
+    text-decoration: underline dashed #a16d1a;
+    letter-spacing: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: red;
+    line-height: 50px;
+    letter-spacing: 2px;
+
+}
+*{
+    background-color: #aae3db;
+    color: blue;
+}
+a:hover{
+    color: blue;
+}
+input[type="radio"]:checked+label{
+    color: red;
+}
+h1::after{
+    color: red;
+    background-color: yellow;
+}
