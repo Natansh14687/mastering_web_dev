@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.container{
+    height: 60px;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    color: white;
+    margin: 10px;
+    background-color: black;
+    border: black;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.button{
+    margin-right: 15px;
+}
+.name{
+    margin: 0px 0px 0px 15px;
+}
