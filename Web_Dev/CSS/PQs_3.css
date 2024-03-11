@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+    font-family: Georgia;
+}
+h1{
+    color: red;
+}
+.poem{
+    color: #964B00;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(7, 118, 7);
+}
+button{
+    color: blueviolet;
+}
+textarea{
+    color: black;
+}
+span{
+    text-decoration: underline;
+}
