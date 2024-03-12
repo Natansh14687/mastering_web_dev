@@ -1,0 +1,16 @@
+.container{
+    height: 400px;
+    width: 400px;
+    border: solid lightblue;
+    border-radius: 10px;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: black solid;
+    border-radius: 10px;
+    /* display: flex; */
+    /* align-items: center; */
+}
